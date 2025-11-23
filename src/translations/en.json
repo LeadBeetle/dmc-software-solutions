@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "services": "Services",
+        "projects": "Projects",
+        "about": "About Me",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "DMC Software Solutions",
+        "subtitle": "Apps, Automation Tools, AI Solutions & Cloud Services",
+        "description": "I develop custom software solutions for businesses and startups. From initial concept to finished product – everything from a single source. My services include not only development but also consulting and strategic planning.",
+        "ctaPrimary": "Request Project",
+        "ctaSecondary": "View Portfolio"
+    },
+    "services": {
+        "heading": "My Services",
+        "items": [
+            {
+                "title": "AI Solutions",
+                "description": "Integration of Artificial Intelligence into your business processes. Chatbots, analytics & more."
+            },
+            {
+                "title": "Automation",
+                "description": "Efficient workflows and process optimization through intelligent automation tools."
+            },
+            {
+                "title": "App Development",
+                "description": "Native and cross-platform apps for iOS and Android. State-of-the-art technologies for best performance."
+            },
+            {
+                "title": "Cloud & Backend",
+                "description": "Scalable cloud architectures and secure backend systems for your applications."
+            }
+        ]
+    },
+    "portfolio": {
+        "heading": "Selected Projects",
+        "projects": [
+            {
+                "title": "AI Workflow Automator",
+                "category": "AI / Automation",
+                "description": "Visual workflow editor for complex automations, specialized in orchestrating AI agents."
+            },
+            {
+                "title": "Transcription App",
+                "category": "Mobile App",
+                "description": "Mobile application for high-precision transcription of meetings and voice notes with speaker recognition."
+            },
+            {
+                "title": "Enterprise AI Agents",
+                "category": "Custom Solutions",
+                "description": "Custom AI agents for customer support and process optimization, integrated into existing company infrastructure."
+            }
+        ]
+    },
+    "about": {
+        "heading": "About Me",
+        "intro": "Hi, I'm Dorian. With nearly 4 years of professional experience in the automotive and insurance industries, I develop intelligent software solutions and have successfully contributed to AI projects.",
+        "background": "My academic background in Cognitive Systems and System Architecture, with a focus on Computer Vision, forms the theoretical foundation of my work. Since October 2025, I have been available as a freelancer with DMC Software Solutions to solve complex technical challenges.",
+        "stats": {
+            "experience": "Years Experience",
+            "expertise": "Expertise",
+            "passion": "Passion"
+        }
+    },
+    "contact": {
+        "heading": "Start a Project",
+        "description": "Do you have an idea or a specific project? Let's talk about how we can bring your vision to life together.",
+        "ctaEmail": "Send Email",
+        "connectText": "Or connect with me on:"
+    },
+    "footer": {
+        "tagline": "Apps, Automation & AI",
+        "legalHeading": "Legal",
+        "impressum": "Imprint",
+        "privacy": "Privacy Policy",
+        "copyright": "DMC Software Solutions. All rights reserved."
+    }
+}

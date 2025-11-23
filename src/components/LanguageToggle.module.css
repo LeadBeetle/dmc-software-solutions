@@ -1,0 +1,47 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.option {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.3s ease;
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.option:hover {
+    color: var(--text-primary);
+}
+
+.option.active {
+    color: transparent;
+    background: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.separator {
+    color: var(--text-secondary);
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .toggle {
+        font-size: 0.8rem;
+    }
+
+    .option {
+        padding: 0.2rem 0.4rem;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,132 @@
+.about {
+    padding: 8rem 0;
+    background: linear-gradient(to top, var(--background), #15161a);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.imageWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(-3deg);
+    transition: transform 0.3s ease;
+}
+
+.imageContainer:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.profileImage {
+    object-fit: cover;
+}
+
+.content {
+    text-align: left;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.text strong {
+    color: white;
+    font-weight: 600;
+}
+
+.stats {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.2rem;
+}
+
+.label {
+    color: #888;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 968px) {
+    .about {
+        padding: 4rem 1.5rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .contentWrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .text {
+        text-align: center;
+        max-width: 100%;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .imageContainer {
+        width: 280px;
+        height: 280px;
+        transform: rotate(0);
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,58 @@
+.footer {
+    background: #0a0a0c;
+    padding: 4rem 0 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.brand h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.brand p {
+    color: #888;
+}
+
+.links h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 0.5rem;
+}
+
+.links a {
+    color: #888;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: var(--primary);
+}
+
+.bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 2rem;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+}
