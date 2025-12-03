@@ -14,7 +14,7 @@ export default function Contact() {
                     <p className={styles.text}>
                         {t('contact.description')}
                     </p>
-                    <a href="mailto:dmc-services@outlook.de" className="btn btn-primary">
+                    <a href="mailto:contact@dmc-software-solutions.com" className="btn btn-primary">
                         {t('contact.ctaEmail')}
                     </a>
                     <div className={styles.info}>

@@ -1,0 +1,36 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Google bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex bot
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+
+# Baidu bot
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+# DuckDuckGo bot
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Disallow admin/internal pages if any exist
+# User-agent: *
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://dmc-software-solutions.com/sitemap.xml

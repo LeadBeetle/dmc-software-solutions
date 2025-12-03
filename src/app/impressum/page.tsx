@@ -27,7 +27,7 @@ export default function Impressum() {
                     {language === 'de' ? 'Kontakt' : 'Contact'}
                 </h2>
                 <p>
-                    E-Mail: dmc-services@outlook.de
+                    E-Mail: contact@dmc-software-solutions.com
                 </p>
 
                 <h2 style={{ fontSize: '1.5rem', color: 'white', marginTop: '2rem', marginBottom: '1rem' }}>
