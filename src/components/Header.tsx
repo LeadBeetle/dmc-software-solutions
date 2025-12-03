@@ -21,9 +21,9 @@ export default function Header() {
                     <Image
                         src="/logo.png"
                         alt="DMC Software Solutions"
-                        width={180}
-                        height={50}
-                        style={{ height: 'auto', width: 'auto', maxHeight: '40px' }}
+                        width={320}
+                        height={89}
+                        style={{ height: 'auto', width: 'auto', maxHeight: '80px' }}
                         priority
                     />
                 </Link>
